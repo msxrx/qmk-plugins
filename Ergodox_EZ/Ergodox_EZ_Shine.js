@@ -4,7 +4,7 @@ export function VendorId() { return 0x3297; }
 export function ProductId() { return 0x4975; }
 export function Publisher() { return "WhirlwindFX"; }
 export function Documentation(){ return "qmk/srgbmods-qmk-firmware"; }
-export function Size() { return [14, 5]; }
+export function Size() { return [30, 1]; }
 export function DefaultPosition(){return [10, 100]; }
 export function DefaultScale(){return 8.0;}
 /* global
@@ -25,13 +25,13 @@ export function ControllableParameters()
 
 //Plugin Version: Built for Protocol V1.0.4
 
-const vKeys = Array.from({length: 15}, (_, i) => i);
+const vKeys = Array.from({length: 30}, (_, i) => i);
 
-const vKeyNames = Array.from({length: 15}, (_, i) => `LED ${i + 1}`);
+const vKeyNames = Array.from({length: 30}, (_, i) => `LED ${i + 1}`);
 
-const vKeyPositions = Array.from({length: 15}, (_, i) => [i, 0]);
+const vKeyPositions = Array.from({length: 30}, (_, i) => [i, 0]);
 
-let LEDCount = 15;
+let LEDCount = 30;
 let IsViaKeyboard = false;
 const MainlineQMKFirmware = 1;
 const VIAFirmware = 2;
