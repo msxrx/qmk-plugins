@@ -25,13 +25,13 @@ export function ControllableParameters()
 
 //Plugin Version: Built for Protocol V1.0.4
 
-const vKeys = Array.from({length: 30}, (_, i) => i);
+const vKeys = Array.from({length: 1}, (_, i) => i);
 
-const vKeyNames = Array.from({length: 30}, (_, i) => `LED ${i + 1}`);
+const vKeyNames = Array.from({length: 1}, (_, i) => `LED ${i + 1}`);
 
-const vKeyPositions = Array.from({length: 30}, (_, i) => [i, 0]);
+const vKeyPositions = Array.from({length: 1}, (_, i) => [i, 0]);
 
-let LEDCount = 30;
+let LEDCount = 1;
 let IsViaKeyboard = false;
 const MainlineQMKFirmware = 1;
 const VIAFirmware = 2;
