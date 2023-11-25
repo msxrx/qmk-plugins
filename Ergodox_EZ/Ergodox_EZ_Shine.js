@@ -1,5 +1,5 @@
-export function Name() { return "Ergodox EZ Glow"; }
-export function Version() { return "1.1.7;"; }
+export function Name() { return "Ergodox EZ Shine"; }
+export function Version() { return "0.1.0;"; }
 export function VendorId() { return 0x3297; }
 export function ProductId() { return 0x4975; }
 export function Publisher() { return "WhirlwindFX"; }
