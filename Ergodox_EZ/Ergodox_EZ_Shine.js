@@ -2,7 +2,7 @@ export function Name() { return "Ergodox EZ Shine"; }
 export function Version() { return "0.1.0;"; }
 export function VendorId() { return 0x3297; }
 export function ProductId() { return 0x4975; }
-export function Publisher() { return "WhirlwindFX"; }
+export function Publisher() { return "msxrx"; }
 export function Documentation(){ return "qmk/srgbmods-qmk-firmware"; }
 export function Size() { return [30, 1]; }
 export function DefaultPosition(){return [10, 100]; }
